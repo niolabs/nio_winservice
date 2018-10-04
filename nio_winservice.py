@@ -16,7 +16,7 @@ import socket
 
 class NIOWinService(win32serviceutil.ServiceFramework):
 
-    project_path = 'C:\\Users\\Tom\\nio\\projects\\bacnet'
+    project_path = None
     name = 'nio_{}'.format(project_path.split('\\')[-1])
     _svc_display_name_ = name
     _svc_name_ = name
