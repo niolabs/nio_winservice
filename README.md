@@ -1,5 +1,3 @@
-## Install nio as Windows Service
-
 ### Requirements:
 - Command Prompt with administrator privileges
 - [pywin32](https://pypi.org/project/pywin32/) (should have been installed with nio)
