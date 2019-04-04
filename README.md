@@ -11,7 +11,9 @@
   - Enter the abosulte path to your nio project for the value of `project_path` , for example: `project_path = "C:\\Users\\<user>\\nio\\projects\\my_project"`
   - Enter the absolute path to the installed `niod` executable. If you are using a [virtual environment](https://docs.n.io/deployment/best-practices/) (highly recommended) it will be inside the environment's directory, for example: `niod_path = "C:\\Users\\<user>\\nio\\env\\Scripts\\niod.exe"`
   - **Note the double backslashes!**
-- In a (Administrator) Command Prompt, run `python3 nio_winservice.py --startup auto install`. If the service is going to be run as a user other than `Local System`, include `--username <user>` and `--password <pass>` args before `install`.
+- In a (Administrator) Command Prompt:
+  - Run `python3 nio_winservice.py --startup auto install`, or
+  - If the service is going to be run as a user other than `Local System`, `python3 nio_winservice.py --startup auto --username <user> --password <pass> install`
 - `nio_<project>` has been installed, but not started. It will start automatically in the future.
 
 ### Use:
