@@ -23,8 +23,7 @@ class NIOWinService(win32serviceutil.ServiceFramework):
     """ Configure the path to your nio project and `niod` executable.
 
         Running `where niod` in a command prompt will return the path to the
-        installed exectuable, making sure that any virtual environment is
-        activated.
+        installed exectuable.
 
     """
 
