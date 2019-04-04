@@ -7,7 +7,7 @@
 #### Install:
 - Open `nio_winservice.py` with a text editor, and near the top of the `NIOWinService` class:
   - Enter the abosulte path to your nio project for the value of `project_path` , for example: `project_path = "C:\\Users\\<user>\\nio\\projects\\<my_project>"`
-  - Enter the absolute path to the installed `niod` executable. If you are using a [virtual environment](https://docs.n.io/deployment/best-practices/) (highly recommended) it will be inside the environment's directory, for example: `niod_path = "C:\\Users\\<user>\\nio\\env\\Scripts\\niod.exe"`
+  - Enter the absolute path to the installed `niod` executable. If you are using a [virtual environment](https://docs.n.io/deployment/best-practices/) (highly recommended) it will be inside the environment's `Scripts\` directory, for example: `niod_path = "C:\\Users\\<user>\\nio\\env\\Scripts\\niod.exe"`
   - **Note the double backslashes!**
 - In a (Administrator) Command Prompt:
   - Run `python3 nio_winservice.py --startup auto install`, or
